@@ -10,13 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
-    rel="stylesheet">
+ 
     <!--Adlam display-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
     <!--DaijyUI CDN-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!--font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .font-sora {
@@ -53,7 +57,7 @@
                         </ul>
                     </div>
                     <img src="./c1-assets/logo-header.png" alt="logo-header">
-                    <a class="btn btn-ghost font-sora text-3xl">Browse4Pets</a>
+                    <a class=" font-sora text-3xl">Browse4Pets</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
@@ -87,10 +91,10 @@
             </div>
         </nav>
         <!--Hero section-->
-        <div class="absolute relative container bg-white h-screen" style="background-image: url(./c1-assets/cat-big.png);">
+        <div class=" relative container bg-white h-screen" style="background-image: url(./c1-assets/cat-big.png);background-repeat: no-repeat;">
             <!-- Text Content -->
             <div class="absolute top-20 left-8 max-w-md space-y-4">
-                <!-- Heading -->
+                <!-- Heading --> 
                 <h1 class="text-4xl font-Adlam font-bold text-black leading-tight">
                     Pamper Your Pet, <br /> Because They Deserve the Best
                 </h1>
@@ -111,10 +115,10 @@
         </div>
     </header>
     <!--Main-->
-    <main class="w-[90%] lg:container mx-auto">
+    <main >
         <!--catagory-->
-        <div>
-            <h1 class="font-Adlam text-4xl font-bold mt-10">Browse By Categories</h1>
+        <div class="w-[90%] lg:container mx-auto">
+            <h1 class="font-Adlam text-4xl font-bold ">Browse By Categories</h1>
             <div class="flex  flex-col lg:flex-row gap-5 justify-center  ">
                 <!--card 1-->
                 <div class="flex bg-[#F9DF8A] px-16 py-8 justify-center items-center rounded-md mt-10">
@@ -186,6 +190,196 @@
 
 
             </div>
+        </div>
+        <!--Trending product-->
+       <div class="bg-[#FFF9F4]">
+        <div class="w-[90%] lg:container    mx-auto">
+            <div >
+                <h1 class="font-Adlam mt-10 font-bold text-3xl ">Trending Pet Products</h1>
+            </div>
+          
+            <div class="flex items-center   justify-between gap-5">
+                  <!--left card-->
+            <div class="bg-[#F9DF8A] p-3 mt-10 w-[28%] rounded-md mb-10">
+                <!--T-shirt dog-->
+                <div >
+                    <div class="space-y-4">
+                        <h1 class="font-Adlam font-bold text-2xl ">T-Shirt For Dogs</h1>
+                        <p class=" mt-8">Discover a world of treats, t oys, and <br> essentials handpicked for</p>
+                        <button class="bg-white font-sora font-semibold px-5 py-2 rounded-md">Shop Now</button>
+                    </div>
+                    <!--image-->
+                    <div class=" flex justify-end -mt-24 ">
+                        <img src="./c1-assets/cute-pet-small.png" alt=" cute pet">
+                    </div>
+                </div>
+
+
+            </div >
+            <!--grid section-->
+           <div class=" flex-1">
+            <div class="grid grid-cols-3 grid-rows-3 gap-3" >
+               
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+                <!--Card_1-->
+                <div class="flex bg-white p-5 items-center gap-3 rounded-lg">
+                   <div>
+                       <img class="bg-[#FFF9F4] px-4 py-4 rounded-md" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon">
+                   </div>
+                   <!--text-->
+                   <div>
+                       <div class="flex flex-row gap-1 items-center">
+                           <i class="fa-solid fa-star text-amber-500"></i>
+                           <h1 class="font-sora">4.5</h1>
+                       </div>
+                       <div>
+                           <p class="font-Adlam font-semibold">Pet Bed</p>
+                           <h1 class="font-sora">$39.99</h1>
+                       </div>
+                   </div>
+               </div>
+               
+           </div>
+           </div>
+            </div>
+
+        </div>
+       </div>
         </div>
     </main>
 
