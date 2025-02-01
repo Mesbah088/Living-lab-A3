@@ -57,7 +57,7 @@
                 <div class="navbar-end gap-2 ">
                    
                         <!-- Notification Icon -->
-                        <button class="p-2 rounded-full hover:bg-gray-200 ">
+                        <button class="p-2 rounded-full hidden lg:block hover:bg-gray-200 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -65,14 +65,14 @@
                             </svg>
                         </button>
                         <!-- Search Icon -->
-                        <button class=" p-2 rounded-full hover:bg-gray-200">
+                        <button class=" hidden lg:block  p-2 rounded-full hover:bg-gray-200">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M21 21l-4.35-4.35m1.55-5.15a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0z" />
                             </svg>
                         </button>
-                        <div class="  ">
+                        <div class=" hidden lg:flex gap-5 ">
                             <a class="btn btn-warning bg-[#FFF9F4] text-[#111111] py-2 px-8">Login</a>
                             <a class="btn btn-warning bg-[#FFDC26] text-[#111111]">Register</a>
                         </div>
@@ -89,10 +89,10 @@
 
 
         <!--Hero section-->
-        <div class=" relative w-[90%] lg:container mx-auto  bg-white h-screen sm:visible  "
-            style="background-image: url(./c1-assets/cat-big.png);background-repeat: no-repeat;">
+        <div class="  w-[90%] flex lg:justify-center  flex-col container mx-auto  bg-white py-10 lg:py-[140px] "
+           >
             <!-- Text Content -->
-            <div class="absolute top-20 left-8 max-w-md space-y-4">
+            <div class=" max-w-md space-y-4 z-50 ">
                 <!-- Heading -->
                 <h1 class="text-4xl font-Adlam font-bold text-black leading-tight">
                     Pamper Your Pet, <br /> Because They Deserve the Best
@@ -109,6 +109,9 @@
                     class="px-6 py-3 bg-yellow-500 text-lg font-semibold rounded-md text-[#111111] hover:bg-yellow-600">
                     Find a pet
                 </button>
+            </div>
+            <div class="lg:-mt-60">
+                <img src="./c1-assets/cat-big.png" alt="">
             </div>
 
         </div>
@@ -399,9 +402,9 @@
             <div class="flex flex-col lg:flex-row gap-4">
                 <!--pet groowing meet-->
                 <div
-                    class="flex items-center justify-between space-y-0 w-auto lg:w-[70%] p-5 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-md mt-12">
+                    class="flex items-center justify-between space-y-0  lg:w-[70%] p-5 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-md mt-12">
                     <!--Text-->
-                    <div class="pl-20">
+                    <div class="lg:pl-20 pl-8">
                         <h1>Under Price</h1>
                         <p class="font-Adlam text-xl">Pet Grooming Mitt</p>
                         <p class="text-white">(Easy Hair Removal)</p>
@@ -428,7 +431,7 @@
         </div>
 
         <!--Get pawsome news-->
-        <div class="relative w-[90%] lg:container bg-[#FFF9F4] mx-auto my-[140px] -mb-40 rounded-lg">
+        <div class="relative w-[90%] container bg-[#FFF9F4] mx-auto my-[140px] -mb-40 rounded-lg">
             <div class="flex flex-col lg:flex-row items-center justify-between ">
                 <div class="w-auto lg:w-[30%] p-8 pl-40">
                     <img src="./c1-assets/cute-pet-mid.png" alt="Cute pet ">
@@ -447,10 +450,10 @@
     <footer>
 
         <div class="bg-[#FFDC2680] pt-36 ">
-            <div class=" w-auto lg:w-[90%] lg:container mx-auto">
+            <div class="w-[90%] container mx-auto py-10">
 
                 <div class="mt-20 w-full text-left">
-                    <div class="flex flex-col text-left lg:flex-row gap-5  lg:justify-between items-center p-0 lg:p-20">
+                    <div class="flex flex-col lg:flex-row justify-between">
                         <div>
                             <!--Logo-->
                             <div class="flex items-start  lg:items-center gap-2">
@@ -467,11 +470,12 @@
                                 <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br>
                                     friends
                                 </p>
+
                             </div>
                         </div>
 
                         <!--Text mid-->
-                        <div >
+                        <div  class=" flex flex-col items-start ">
                             <ul>
                                 <li class="font-semibold">Find a pet</li>
                                 <li class="font-semibold mb-4 mt-4">Breeds</li>
@@ -479,12 +483,12 @@
                             </ul>
                         </div>
                         <!--icon-->
-                        <div>
+                        <div class=space-y-4>
                             <div>
                                 <h1 class="font-sora font-semibold">Follow Us</h1>
                             </div>
 
-                            <div class="flex gap-5">
+                            <div class="flex justify-start lg:justify-center gap-5">
                                 <i class="fa-brands fa-facebook"></i>
                                 <i class="fa-brands fa-instagram"></i>
                                 <i class="fa-brands fa-linkedin-in"></i>
